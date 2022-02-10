@@ -558,7 +558,7 @@ function start() {
                 }
             })
             .then(function (balance) {
-                accountAddress.html('<strong>Selected Account: ' + address + ' (' + balance + ' eth)</strong>').show();
+                accountAddress.html('<strong>Selected Account:</strong> ' + address + ' (' + balance + ' eth)').show();
             })
             .fail(function (err) {
                 if (err.message !== "Metamask Locked")
