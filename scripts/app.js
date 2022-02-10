@@ -444,7 +444,7 @@ window.addEventListener('load', async () => {
             .html('Please allow MetaMask to view your addresses')
             .css({
                 "text-align": "center",
-                "color": "#0000ff"
+                "color": "#ff0000"
             })
             .show();
         window.ethereum.enable().then(function (abc) {
